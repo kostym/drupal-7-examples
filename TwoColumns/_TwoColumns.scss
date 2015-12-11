@@ -1,0 +1,13 @@
+.TwoColumns {
+  margin: 20px 0;
+}
+
+.TwoColumns-main {
+  float: left;
+  width: calc(100% - 300px);
+}
+
+.TwoColumns-sidebar {
+  float: right;
+  width: 300px;
+}

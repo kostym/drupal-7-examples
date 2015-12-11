@@ -1,7 +1,4 @@
 <?php
-/**
-* This plugin array is more or less self documenting
-*/
 $plugin = array(
   'single' => TRUE,
   'title' => t('Kostym Logo'),

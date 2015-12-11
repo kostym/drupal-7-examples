@@ -1,0 +1,15 @@
+.TwoColumns-main {
+    width: 64%;
+    margin: 0 1% 2% 0;
+    float: left;
+}
+
+.TwoColumns-sidebar {
+    width: 34%;
+    margin: 0 0 2% 1%;
+    float: right;
+}
+
+.form-actions {
+    clear: both;
+}
