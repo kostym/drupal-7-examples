@@ -51,7 +51,7 @@ For a ctools content type to get auto-detected by the Kostym module, you just pl
 kostym_components
 └── <b>Logo</b>
     ├── _Logo.scss
-    └── <b>ctools-content\_types</b>
+    └── <b>ctools-content_types</b>
         └── Logo.inc
 </pre>
 
