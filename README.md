@@ -44,7 +44,7 @@ kostym_components
 
 ## Ctools Content Type
 
-Component: **Logo**
+Component: **[Logo](https://github.com/kostym/drupal-7-examples/tree/master/Logo)**
 
 For a ctools content type to get auto-detected by the Kostym module, you just place it under a sub-folder called `ctools-content_types`.
 <pre>
