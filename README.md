@@ -1,16 +1,16 @@
-# Example Kostym Components for Drupal 7
+# Example Kostym components for Drupal 7
 
 Here are a few example of Kostym components in Drupal 7. These examples requires the [Kostym module](https://github.com/kostym/drupal-7-module) to work and assumes that the [Kostym gulpfile](https://github.com/kostym/drupal-7-gulpfile.js) is used. 
 
 * [Panels layout](#panels-layout)
 * [Panels style](#panels-style)
-* [Ctools Content Type](#ctools-content-type)
+* [Ctools content Type](#ctools-content-type)
 * theme template override
 * theme function override 
 * theme template suggestion
 * twig with slate
 
-## Panels Layout
+## Panels layout
 Component: **[TwoColumns](https://github.com/kostym/drupal-7-examples/tree/master/TwoColumns)**
 
 For a panels layout to get auto-detected by the Kostym module, you just place it under a sub-folder called `panels-layouts`.
@@ -27,7 +27,7 @@ kostym_components
         └── two-columns.tpl.php
 </pre>
 
-## Panels Style
+## Panels style
 
 Component: **[Box](https://github.com/kostym/drupal-7-examples/tree/master/Box)**
 
@@ -41,8 +41,7 @@ kostym_components
         └── box.tpl.php
 </pre>
 
-
-## Ctools Content Type
+## Ctools content Type
 
 Component: **[Logo](https://github.com/kostym/drupal-7-examples/tree/master/Logo)**
 
@@ -55,3 +54,15 @@ kostym_components
         └── Logo.inc
 </pre>
 
+
+## Theme function override 
+
+Component: **[StatusMessages](https://github.com/kostym/drupal-7-examples/tree/master/StatusMessages)**
+
+<pre>
+kostym_components
+└── <b>StatusMessages</b>
+    ├── StatusMessages.info
+    ├── StatusMessages.module
+    └── _StatusMessages.scss
+</pre>

@@ -1,0 +1,26 @@
+.StatusMessages {
+  margin: 20px;
+  border: 1px solid transparent;
+  border-radius: 4px;
+}
+
+.StatusMessages-inner {
+  margin: 15px;
+}
+
+.StatusMessages--status {
+  border-color: green;
+  background-color: #69806f;
+}
+
+.StatusMessages--warning {
+  border-color: yellow;
+  background-color: #fffcb0;
+}
+
+
+.StatusMessages--error {
+  border-color: red;
+  background-color: #ffcccf;
+}
+
