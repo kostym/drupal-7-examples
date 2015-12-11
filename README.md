@@ -4,39 +4,54 @@ Here are a few example of Kostym components in Drupal 7. These examples requires
 
 * [Panels layout](#panels-layout)
 * [Panels style](#panels-style)
-* ctools content type
-* twig with slate
+* [Ctools Content Type](#ctools-content-type)
 * theme template override
 * theme function override 
 * theme template suggestion
+* twig with slate
 
-## Panels layout
-**Component:** TwoColumns
+## Panels Layout
+Component: **TwoColumns**
 
-When naming a sub-folder in a component, panels-layouts, the kostym module is going to find it and get auto-enabled by the kostym module.
+For a panels layout to get auto-detected by the Kostym module, you just place it under a sub-folder called `panels-layouts`.
 
 <pre>
 kostym_components
 └── <b>TwoColumns</b>
     ├── TwoColumns.js
     ├── _TwoColumns.scss
-    └── panels-layouts
+    └── <b>panels-layouts</b>
         ├── TwoColumns.admin.css
         ├── TwoColumns.inc
         ├── TwoColumns.png
         └── two-columns.tpl.php
 </pre>
 
-## Panels style
+## Panels Style
 
-**Component:** Box
+Component: **Box**
 
-Panels style get auto-enabled by the kostym module.
+For a panels style to get auto-detected by the Kostym module, you just place it under a sub-folder called `panels-styles`.
 <pre>
 kostym_components
 └── <b>Box</b>
     ├── _Box.scss
-    └── panels-styles
+    └── <b>panels-styles</b>
         ├── Box.inc
         └── box.tpl.php
 </pre>
+
+
+## Ctools Content Type
+
+Component: **Logo**
+
+For a ctools content type to get auto-detected by the Kostym module, you just place it under a sub-folder called `ctools-content_types`.
+<pre>
+kostym_components
+└── <b>Logo</b>
+    ├── _Logo.scss
+    └── <b>ctools-content\_types</b>
+        └── Logo.inc
+</pre>
+
