@@ -5,8 +5,8 @@ Here are a few example of Kostym components in Drupal 7. These examples requires
 * [Panels layout](#panels-layout)
 * [Panels style](#panels-style)
 * [Ctools content Type](#ctools-content-type)
+* [Theme function override](#theme-function-override) 
 * theme template override
-* theme function override 
 * theme template suggestion
 * twig with slate
 
