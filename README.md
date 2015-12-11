@@ -29,7 +29,7 @@ kostym_components
 
 ## Panels Style
 
-Component: **Box**
+Component: **[Box](https://github.com/kostym/drupal-7-examples/tree/master/Box)**
 
 For a panels style to get auto-detected by the Kostym module, you just place it under a sub-folder called `panels-styles`.
 <pre>
