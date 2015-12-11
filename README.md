@@ -11,7 +11,7 @@ Here are a few example of Kostym components in Drupal 7. These examples requires
 * twig with slate
 
 ## Panels Layout
-Component: **TwoColumns**
+Component: **[TwoColumns](https://github.com/kostym/drupal-7-examples/tree/master/TwoColumns)**
 
 For a panels layout to get auto-detected by the Kostym module, you just place it under a sub-folder called `panels-layouts`.
 
