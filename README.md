@@ -7,7 +7,8 @@ Here are a few example of Kostym components in Drupal 7. These examples requires
 * [Ctools content Type](#ctools-content-type)
 * [Theme function override](#theme-function-override) 
 * [Template override](#template-override)
-* twig with slate
+* [Twig file with slate module](#twig-with-slate-module)
+* [View mode override with slate module](#view-mode-override-with-slate-module)
 
 ## Panels layout
 Component: **[TwoColumns](https://github.com/kostym/drupal-7-examples/tree/master/TwoColumns)**
@@ -78,4 +79,30 @@ kostym_components
 └── <b>Page</b>
     ├── node--page.tpl.php
     └── _Page.scss
+</pre>
+
+## Twig with slate module
+
+Component: **[Video](https://github.com/kostym/drupal-7-examples/tree/master/Video)**
+
+This component is dependent on the [slate module](https://www.drupal.org/project/slate).
+
+<pre>
+kostym_components
+└── <b>Video</b>
+    ├── Video.html.twig
+    └── _Video.scss
+</pre>
+
+## View mode override with slate module
+
+Component: **[ArticleTeaser](https://github.com/kostym/drupal-7-examples/tree/master/ArticleTeaser)**
+
+This component is dependent on the [slate module](https://www.drupal.org/project/slate).
+
+<pre>
+kostym_components
+└── <b>ArticleTeaser</b>
+    ├── ArticleTeaser.html.twig
+    └── _ArticleTeaser.scss
 </pre>

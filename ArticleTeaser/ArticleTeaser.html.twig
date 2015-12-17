@@ -1,0 +1,10 @@
+{# slate
+  name = ArticleTeaser
+  models[article] = entity:node
+  view_mode[node][article] = teaser
+#}
+
+<a class="ArticleTeaser" href="{{ article.url }}">
+  <h3 class="ArticleTeaser-title">{{ title }}</h3>
+  <p class="ArticleTeaser-lead">{{ lead|length > 200 ? lead|slice(0, 200) ~ '...' : lead  }}</p>
+</a>
