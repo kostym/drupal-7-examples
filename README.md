@@ -6,8 +6,7 @@ Here are a few example of Kostym components in Drupal 7. These examples requires
 * [Panels style](#panels-style)
 * [Ctools content Type](#ctools-content-type)
 * [Theme function override](#theme-function-override) 
-* [Theme template suggestion override](#theme-template-suggestion-override)
-* theme template suggestion
+* [Template override](#template-override)
 * twig with slate
 
 ## Panels layout
@@ -58,6 +57,8 @@ kostym_components
 
 Component: **[StatusMessages](https://github.com/kostym/drupal-7-examples/tree/master/StatusMessages)**
 
+**Note:** Right now there is no [support for theme function with suggestions](https://github.com/kostym/drupal-7-module/issues/1). 
+
 <pre>
 kostym_components
 └── <b>StatusMessages</b>
@@ -66,9 +67,11 @@ kostym_components
     └── _StatusMessages.scss
 </pre>
 
-## Theme template suggestion override
+## Template override
 
 Component: **[Page](https://github.com/kostym/drupal-7-examples/tree/master/Page)**
+
+Read more about [template overrides and suggesstions](https://www.drupal.org/node/1089656).
 
 <pre>
 kostym_components
