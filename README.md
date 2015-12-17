@@ -12,7 +12,7 @@ Here are a few example of Kostym components in Drupal 7. These examples requires
 ## Panels layout
 Component: **[TwoColumns](https://github.com/kostym/drupal-7-examples/tree/master/TwoColumns)**
 
-For a panels layout to get auto-detected by the Kostym module, you just place it under a sub-folder called `panels-layouts`.
+For a panels layout to get auto-detected by the Kostym module, you just place it under a subfolder called `panels-layouts`.
 
 <pre>
 kostym_components
@@ -30,7 +30,7 @@ kostym_components
 
 Component: **[Box](https://github.com/kostym/drupal-7-examples/tree/master/Box)**
 
-For a panels style to get auto-detected by the Kostym module, you just place it under a sub-folder called `panels-styles`.
+For a panels style to get auto-detected by the Kostym module, you just place it under a subfolder called `panels-styles`.
 <pre>
 kostym_components
 └── <b>Box</b>
@@ -44,11 +44,11 @@ kostym_components
 
 Component: **[Logo](https://github.com/kostym/drupal-7-examples/tree/master/Logo)**
 
-For a ctools content type to get auto-detected by the Kostym module, you just place it under a sub-folder called `ctools-content_types`.
+For a ctools content type to get auto-detected by the Kostym module, you just place it under a subfolder called `ctools-content_types`.
 <pre>
 kostym_components
 └── <b>Logo</b>
-    ├── _Logo.scss
+    ├── _Logo.scsssubfolder
     └── <b>ctools-content_types</b>
         └── Logo.inc
 </pre>
@@ -71,7 +71,7 @@ kostym_components
 
 Component: **[Page](https://github.com/kostym/drupal-7-examples/tree/master/Page)**
 
-Read more about [template overrides and suggesstions](https://www.drupal.org/node/1089656).
+Read more about [template overrides and suggestions](https://www.drupal.org/node/1089656).
 
 <pre>
 kostym_components
