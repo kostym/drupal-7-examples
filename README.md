@@ -1,6 +1,6 @@
 # Example Kostym components for Drupal 7
 
-Here are a few example of Kostym components in Drupal 7. These examples requires the [Kostym module](https://github.com/kostym/drupal-7-module) to work and assumes that the [Kostym gulpfile](https://github.com/kostym/drupal-7-gulpfile.js) is used. 
+Here are a few examples of how different components can be implemented in Drupal 7.
 
 * [Panels layout](#panels-layout)
 * [Panels style](#panels-style)
@@ -9,6 +9,9 @@ Here are a few example of Kostym components in Drupal 7. These examples requires
 * [Template override](#template-override)
 * [Twig file with slate module](#twig-with-slate-module)
 * [View mode override with slate module](#view-mode-override-with-slate-module)
+
+
+**Note:** These examples requires the [Kostym module](https://github.com/kostym/drupal-7-module) to work and assumes that the [Kostym gulpfile](https://github.com/kostym/drupal-7-gulpfile.js) is used. 
 
 ## Panels layout
 Component: **[TwoColumns](https://github.com/kostym/drupal-7-examples/tree/master/TwoColumns)**
