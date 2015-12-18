@@ -4,11 +4,12 @@ Here are a few examples of how different components can be implemented in Drupal
 
 * [Panels layout](#panels-layout)
 * [Panels style](#panels-style)
-* [Ctools content Type](#ctools-content-type)
+* [Ctools content type](#ctools-content-type)
 * [Theme function override](#theme-function-override) 
 * [Template override](#template-override)
 * [Twig file with slate module](#twig-with-slate-module)
 * [View mode override with slate module](#view-mode-override-with-slate-module)
+* [Views style plugin](#views-style-plugin)
 
 
 **Note:** These examples requires the [Kostym module](https://github.com/kostym/drupal-7-module) to work and assumes that the [Kostym gulpfile](https://github.com/kostym/drupal-7-gulpfile.js) is used. 
@@ -108,4 +109,18 @@ kostym_components
 └── <b>ArticleTeaser</b>
     ├── ArticleTeaser.html.twig
     └── _ArticleTeaser.scss
+</pre>
+
+## Views style plugin
+
+Component: **[CompactList](https://github.com/kostym/drupal-7-examples/tree/master/CompactList)**
+
+<pre>
+kostym_components
+└── <b> CompactList</b>
+    ├── CompactList.info
+    ├── CompactList.module
+    ├── CompactList.tpl.php
+    ├── CompactList.views.inc
+    └── _CompactList.scss
 </pre>
